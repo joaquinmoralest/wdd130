@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+    --primary-color: #48639c;
+    --secondary-color: #0a090c;
+    --accent-color: #626d58;
+    --additional-accent-color: #62bec1;
+    --heading-font: "Poppins", serif;
+    --paragraph-font: "Poppins", serif;
+    --navigation-background-color: var(--secondary-color);
+    --navigation-link-color: var(--additional-accent-color);
+    --navigation-hover-link-color: var(--secondary-color);
+    --navigation-hover-background-color: var(--additional-accent-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
