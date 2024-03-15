@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+    --primary-color: #48639c;
+    --secondary-color: #0a090c;
+    --accent1-color: #626d58;
+    --accent2-color: #62bec1;
+    --heading-font: "Poppins", serif;
+    --paragraph-font: "Poppins", serif;
+    --nav-background-color: var(--secondary-color);
+    --nav-link-color: var(--accent2-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--accent2-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1,
+.hero article {
+    position: absolute;
+}
+
+.hero h1 {
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 1rem;
+}
+
+.hero article {
+    top: 5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.hero article img {
+    float: right;
+    width: 180px;
+    margin-left: 1rem;
+}
