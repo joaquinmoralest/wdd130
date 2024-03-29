@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <form action="#">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full name</label>
+                    <input id="fullname" name="fullname" type="text">
+                    <label for="useremail">Email</label>
+                    <input type="email" name="useremail" id="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="safari">Safari</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                    <label for="places">List the places you have lived:</label>
+                    <textarea
+                        name="places"
+                        id="places"
+                        cols="30"
+                        rows="10"
+                        placeholder="Santiago de Chile..."
+                    ></textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
