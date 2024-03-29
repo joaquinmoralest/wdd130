@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: cornflowerblue;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid steelblue;
+  border-radius: .5rem;
+  display: grid;
+  gap: 20px;
+  background-color: aliceblue;
+}
+
+form fieldset {
+  display: grid;
+  gap: .5rem;
+  padding: 1rem;
+  border-color: seashell;
+  border-radius: 5px;
+}
+
+form fieldset legend {
+  font-size: 1.4rem;
+  padding: 0 10px;
+}
+
+label, input, button, select, textarea {
+  font-family: Roboto, system-ui;
+}
+
+label {
+  text-align: right;
+  padding-right: .8rem;
+}
+
+input, select,textarea {
+  padding: .5rem;
+  font-size: .8rem;
+}
+
+input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: bottom;
+}
+
+button {
+  padding: .5rem 1rem;
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: .5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: .5rem 0;
+}
