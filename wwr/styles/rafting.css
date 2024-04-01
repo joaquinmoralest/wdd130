@@ -283,3 +283,7 @@ footer nav img {
     display: flex;
     align-items: center;
 }
+
+footer .wireframe {
+    color: white;
+}
