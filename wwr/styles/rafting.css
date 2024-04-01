@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 a {
@@ -130,6 +130,124 @@ section {
     width: 100%;
     height: 150px;
     object-fit: cover;
+}
+
+/* Contact */
+.contact .team {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact .team div {
+    display: flex;
+    gap: 24px;
+}
+
+.contact .team img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.contact .contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.contact .contact-us h2 {
+    text-align: center;
+}
+
+.contact .contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact .contact-us form .inputs {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.contact .contact-us form .inputs .col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.contact .col1 > label:nth-child(1),
+.contact .col1 > label:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .col1 .radio-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-us form .inputs .col2 {
+    flex-grow: 1;
+}
+
+.contact .col2 label {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.contact textarea {
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    padding: .5rem;
+}
+
+.contact button[type="submit"] {
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: var(--accent1-color);
+}
+
+.contact .find-us {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact .find-us > div {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contact .find-us .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 footer {
