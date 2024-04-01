@@ -133,6 +133,10 @@ section {
 }
 
 /* Contact */
+.contact h1 {
+    text-align: center;
+}
+
 .contact .team {
     text-align: center;
     display: flex;
@@ -248,6 +252,10 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.contact .find-us .map iframe {
+    border: none;
 }
 
 footer {
