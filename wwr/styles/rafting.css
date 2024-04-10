@@ -258,6 +258,90 @@ section {
     border: none;
 }
 
+.trips h1, .trips h2 {
+    text-align: center;
+}
+
+.trips .trip {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.trips .trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.trips .card {
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px 0px #c7c7c7;
+}
+
+.trips .card div {
+    width: 100%;
+}
+
+.trips .card div img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+}
+
+.trips .card h3, .trips .card p {
+    margin: 1rem;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cta .cta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cta .btn {
+    padding: 8px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid gray;
+    padding: 8px 15px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
